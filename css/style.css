@@ -10,20 +10,20 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
-  color: #666666;
+  background: #1a1a1a; /* Dark background */
+  color: #cccccc; /* Light text color */
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #007bff;
+  color: #0099ff; /* Brighter blue for links */
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #00e676; /* Brighter green for hover */
   outline: none;
   text-decoration: none;
 }
