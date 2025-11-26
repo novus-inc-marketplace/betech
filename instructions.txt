@@ -1,0 +1,2 @@
+│ > now read each html file, wherever there are text placeholders, replace them with relevant text considering what   │
+│   you understand from the ain and goal of this website project. 
