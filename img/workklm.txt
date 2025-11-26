@@ -1,0 +1,70 @@
+Design a responsive website for BETech Computers that includes the following sections:
+
+1. **Homepage (Top Page):**
+   - A professional, visually appealing header with logo and navigation menu.
+   - Easy access to:
+     - Product listings
+     - Image gallery
+     - Services section
+     - WhatsApp button
+     - Social media links
+
+2. **About Section:**
+   - A brief but informative description of the company’s mission, values, and achievements.
+
+3. **Products Page:**
+   - Detailed product listings using images with "Product Name" as the image title.
+   - Each product image should have a tagline like "Laptop Type" or "Mobile Phone Model."
+   - Include key specs such as processor, memory, storage, display size, and battery life.
+
+4. **Services/Repairs Page:**
+   - Information on service offerings, pricing, and contact options.
+   - A clear section for any necessary technical specifications.
+
+5. **WhatsApp Button:**
+   - An engaging "Call Now" button that appears when users interact with the homepage or swipe horizontally.
+   - The button should change color to indicate user interaction (e.g., green on mobile).
+
+6. **Social Media Links:**
+   - Icons linking to company profiles on major social platforms.
+
+**Key Features to Ensure Accessibility and Responsiveness:**
+
+- Include CSS variables for:
+  - Text colors (dark blue for text, light gray for background)
+  - Image sizing based on viewport width
+  - Loading speed detection
+  - Mobile-friendly layouts
+
+- Use ARIA labels in HTML for screen reader compatibility.
+- Add alt attributes to images using inline styles and CSS variables.
+
+- Ensure responsive grids:
+  - Product listings on larger screens with smaller grid on mobile.
+  - Images arranged in responsive columns.
+
+---
+
+**Responsive Design Considerations:**
+
+1. **Grid Layouts:**
+   - Use `grid grid-cols-1 md:grid-cols-2` or similar classes to create responsive layouts across all pages.
+
+2. **Image Arrangement:**
+   - Arrange images in a responsive grid using CSS Grid.
+   - Ensure images are scaled appropriately for different screen sizes.
+
+3. **Dynamic Content:**
+   - Use JavaScript or other dynamic methods to load product images and content based on user interaction (e.g.,
+swipe across the homepage).
+
+---
+
+**Final Steps:**
+
+- After your team has submitted the HTML code, implement loading speed detection and error handling in CSS.
+- Add ARIA labels to ensure accessibility for screen readers.
+- Implement responsive grid layouts using CSS Grid or Flexbox.
+- Test all sections on mobile devices to ensure responsiveness.
+
+This design will provide a professional, user-friendly website that aligns with your requirements.
